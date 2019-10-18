@@ -1,0 +1,34 @@
+@viewport-width: 750;
+@root-font-size: @viewport-width / 16;
+html{
+  font-size:10px;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.div1{
+   height:100px; 
+  width: unit(500 / @root-font-size, rem);
+  background: yellowgreen;
+}
+.div2{
+  flex: 1;
+ /* // background:blueviolet; */ 
+}
+.div3{
+   width:10rem; 
+  height: 10rem;
+  background: palevioletred;
+  /* flex: 2; */
+}
+.div4{
+  width: 30px;
+  height: 30px;
+  border: 50px solid ;
+  border-color: transparent  transparent blue transparent;
+
+}
